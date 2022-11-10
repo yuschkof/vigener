@@ -4,6 +4,7 @@ Open live demo [https://yuschkof-vigener-main-1rdji6.streamlit.app/](https://yus
 
 To run server:
 ```bash
+pip install streamlit
 streamlit run main.py
 ```
 
