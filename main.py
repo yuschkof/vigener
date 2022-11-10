@@ -48,7 +48,7 @@ with col1:
 with col2:
     st.subheader('Расшифровать слово')
     output = ''
-    shifre = st.text_input('Зашифрованное слово', 'Hello world')
+    shifre = st.text_input('Зашифрованное слово', '')
     key = st.text_input('Ключ', '')
     if st.button('Расшифровать'):
         output = vigenere_decrypt(shifre, key)
