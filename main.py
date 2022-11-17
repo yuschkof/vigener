@@ -1,6 +1,8 @@
 import streamlit as st
 from vigenere import Vigenere
 
+st.set_page_config(page_title="Vigenere cipher python")
+
 alphabets = '0123456789' \
             'ABCDEFGHIJKLMNOPQRSTUVWXYZ' \
             'abcdefghijklmnopqrstuvwxyz' \
